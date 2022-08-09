@@ -1,0 +1,22 @@
+#success, #error {
+    border:1px solid #e6e6e6;
+    background:#f6f6f6;
+    display:none;
+    text-align:center;
+    padding:15px 12px 15px 65px;
+    margin:10px 0;
+    font-weight:600;
+    margin-bottom:30px;
+}
+
+#error {
+    color: #f00;
+}
+
+#center {
+    position: fixed; /* or absolute */
+    top: 10px;
+    left: 10px;
+    width:  500px;
+    height: 100px;
+}
